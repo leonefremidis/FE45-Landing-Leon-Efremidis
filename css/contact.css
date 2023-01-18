@@ -1,0 +1,59 @@
+form {
+    margin-top: 90px;
+}
+.contact-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 70px;
+}
+input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #bdbdbd;
+}
+textarea {
+   padding: 20px;
+   outline: none;
+   height: 100%;
+   resize: none;
+   border: 0;
+   border-bottom: 1px solid #bdbdbd;
+}
+.contact-btn {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    background-color: #ec7979;
+    width: 166px;
+    height: 42px;
+    border: 0;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.contact-btn:hover {
+    background-color: #d55454
+}
+.contact-item {
+
+}
+.contact-wrap__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+}
+/* Вопрос: почему без height: 100%; не срабатывал space-between? */
+.contact-wrap__right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+}

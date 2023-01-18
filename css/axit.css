@@ -1,0 +1,123 @@
+.axit {
+    background: url("../img/bg/axit-bg.png");
+    margin: auto;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    /* display: none; */
+}
+.axit-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.axit-block-heading {
+    display: inline-block;
+    width: 550px;
+    position: relative;
+    z-index: 2;
+}
+.axit-logo {
+    display: flex;
+    font-family: "Roboto";
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.axit-title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.axit-title::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: #fff;
+    margin: 34px auto 34px;
+    display: inline-block;
+}
+.axit-title-text {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 57px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.axit::before {
+    content: "";    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.axit-btn {
+    display: inline-block;
+    transition: 0.3s;
+    width: 135px;
+    height: 42px;
+    cursor: pointer;
+    margin: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: #fff;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    transition: 0.3s;
+}
+.axit-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3)
+}
+.axit-trial-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+    height: 370px;
+    border-radius: 8px;
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+
+}
+.axit-trial-form h3 {
+    margin-top: 15px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.trial-btn {
+    display: block;
+    cursor: pointer;
+    background-color: #ec7979;
+    width: 100%;
+    border: 0;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 60px;
+    transition: 0.3s;
+
+}
+.trial-btn:hover {
+    background-color: #d55454
+}
+.free {
+    color: #ec7979;
+}

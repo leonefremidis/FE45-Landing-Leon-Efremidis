@@ -1,0 +1,24 @@
+.footer {
+    background-color: #000;
+    max-width: 1170px;
+    margin: auto;
+    padding: 15px 80px 15px;
+}
+.footer-socialmedia-links {
+    margin: auto;
+    width: 317px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.footer-socialmedia-links--item a {
+    color: #86878B;
+    font-size: 25px;
+}
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}

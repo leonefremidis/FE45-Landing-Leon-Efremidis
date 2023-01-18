@@ -1,12 +1,10 @@
 .axure {
-    max-width: 1400px;
-    height: 325px;
     background: url("../img/bg/axure-bg.png");
     margin: auto;
     position: relative;
     background-size: cover;
     background-position: center;
-    margin-bottom: 80px;
+    /* display: none; */
 }
 .axure-block-heading {
     text-align: center;
@@ -19,7 +17,6 @@
     color: #fff;
     font-size: 36px;
     text-transform: uppercase;
-    text-align: center;
 }
 .axure-title::after {
     content: "";
@@ -64,4 +61,8 @@
     color: #fff;
     z-index: 3;
     position: relative;
+    transition: 0.3s;
+}
+.axure-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3)
 }
