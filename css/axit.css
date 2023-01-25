@@ -92,16 +92,22 @@
     position: relative;
     z-index: 3;
     overflow: hidden;
-
+}
+.axit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 .axit-trial-form h3 {
     margin-top: 15px;
     font-family: "Open Sans";
     font-size: 20px;
     font-weight: 700;
-    
+    margin-bottom: 50px;
 }
 .trial-btn {
+    margin-top: 50px;
     display: block;
     cursor: pointer;
     background-color: #ec7979;

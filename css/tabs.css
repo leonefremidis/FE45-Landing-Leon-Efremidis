@@ -1,0 +1,76 @@
+.tabs-wrap {
+    display: flex;
+}
+.tabs-btn-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 88px;
+}
+.tabs-btn {
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 0;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 112px;
+    height: 110px;
+    border-radius: 4px;
+    background-color: #333;
+    transition: 0.3s;
+}
+.tabs-btn:last-child {
+    margin-bottom: 0;
+}
+.tabs-btn:hover {
+    background-color: #EC7979;
+}
+
+.tabs-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.tabs-description h2{
+    color: #000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+}
+.tabs-description-text {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+}
+.tabs-description-text p {
+    margin-bottom: 20px;
+}
+.tabs-description-btn {
+    cursor: pointer;
+    background-color: #ec7979;
+    width: 166px;
+    height: 42px;
+    border: 0;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+    bottom: 0;
+}
+.tabs-description-btn:hover {
+    background-color: #d55454
+}
+.tabs-image img{
+    width: 320px;
+    height: 253px;
+    }
