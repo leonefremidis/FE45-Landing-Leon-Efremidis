@@ -1,5 +1,5 @@
 @media (max-width: 1120px) {
-.axit-wrap  {
+    .axit-wrap  {
     display: flex;
     flex-direction: column;
 }
@@ -36,9 +36,14 @@
 .tabs-description h2 {
     margin-bottom: 30px;
 }
-/* .tabs-image img{
- 
-} */
+.tabs-image {
+    display: flex;
+    justify-content: center;
+}
+.tabs-image img{
+    width: 70%;
+    height: 70%;
+}
 .awesome-card {
     justify-content: center;
 }
