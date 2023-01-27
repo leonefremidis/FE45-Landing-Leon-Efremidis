@@ -6,7 +6,7 @@
 }
 .socialmedia-wrap {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -28,7 +28,7 @@
     color: #86878b;
 }
 .socialmedia-links {
-    flex-grow: 1;
+    width: 600px;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;

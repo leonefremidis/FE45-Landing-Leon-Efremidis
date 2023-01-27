@@ -14,7 +14,7 @@ input {
     border-bottom: 1px solid #bdbdbd;
 }
 textarea {
-   padding: 20px;
+   padding: 10px;
    outline: none;
    height: 100%;
    resize: none;
@@ -39,7 +39,6 @@ textarea {
     background-color: #d55454
 }
 .contact-item {
-
 }
 .contact-wrap__left {
     display: flex;
@@ -48,7 +47,6 @@ textarea {
     width: 40%;
     height: 100%;
 }
-/* Вопрос: почему без height: 100%; не срабатывал space-between? */
 .contact-wrap__right {
     width: 40%;
     display: flex;

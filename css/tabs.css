@@ -1,5 +1,6 @@
 .tabs-wrap {
     display: flex;
+    /* display: none; */
 }
 .tabs-btn-wrap {
     display: flex;
@@ -28,7 +29,9 @@
 .tabs-btn:hover {
     background-color: #EC7979;
 }
-
+.tabs-content {
+    display: flex;
+}
 .tabs-description {
     display: flex;
     flex-direction: column;
